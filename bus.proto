@@ -33,7 +33,7 @@ message Bus {
         float lon = 2;
     }
 
-    int32 vehicle_id = 1;
+    string bus_id = 1;
     int32 status = 2;
     Coord coord = 3;
     float angle = 4;
