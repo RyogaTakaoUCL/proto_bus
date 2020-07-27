@@ -34,10 +34,15 @@ message Bus {
     }
 
     string bus_id = 1;
-    int32 status = 2;
-    Coord coord = 3;
-    float angle = 4;
-    int32 speed = 5;
-    repeated FleetService services = 6;
-    repeated int32 demands = 7;
+    int32 delay_time = 2;
+    int32 service_num = 3;
+    int32 reason_id = 4;
+    string stop_id = 5;
+    int32 stop_sequence = 6;
+    Coord coord = 7;
+    float speed = 8;
+    float azimuth = 9;
+    int32 approach_statsu = 10;
+    repeated BusService services = 11;
+    repeated int32 demands = 12;
 }
