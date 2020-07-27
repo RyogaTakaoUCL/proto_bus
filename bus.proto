@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package proto.bus;
 
-option go_package="github.com/RyogaTakaoUCL/proto_bus.git";
+option go_package="github.com/RyogaTakaoUCL/proto_bus";
 
 message BusService {
     message ShareRideSerivce {
